@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-white text-black transition-colors duration-300" id="pageBody">
+  
+
+  <header class="flex justify-between items-center px-6 py-4 shadow-md">
+    <h1 class="text-2xl font-bold">My Landing Page</h1>
+    <button id="toggleTheme" class="px-4 py-2 rounded bg-indigo-500 text-white hover:bg-indigo-600">
+      Toggle Dark Mode
+    </button>
+  </header>
+
+
+  <section class="flex flex-col items-center justify-center text-center py-20 px-6">
+    <img
+      src="https://i.pinimg.com/736x/2e/90/f2/2e90f27c64537ed20a3f8350391d4989.jpg"
+      alt="Profile"
+      class="rounded-full mb-6 border-4 border-indigo-500 w-24 h-24 object-cover shadow-lg"
+    />
+    <h2 class="text-3xl md:text-5xl font-bold mb-4">Hi, I'm Aryan Mishra</h2>
+    <p class="text-lg md:text-xl max-w-xl mb-6">
+      I'm an aspiring developer exploring the world of web technologies. Welcome!
+    </p>
+    <button
+      id="visitBtn"
+      class="px-6 py-3 rounded bg-green-500 text-white hover:bg-green-600"
+    >
+      How many times did you visit me? 👉 <span id="visitCount">0</span>
+    </button>
+  </section>
+
+
+  <section class="px-6 py-10 max-w-3xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-4">About Me</h3>
+    <p class="text-base leading-7">
+      I’m studying Electrical Engineering and passionate about web development using HTML, Tailwind CSS, and JavaScript.
+      I’m also working on mastering DSA and backend technologies.
+    </p>
+  </section>
+
+
+<section class="px-6 py-10 max-w-3xl mx-auto">
+  <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+  <p>
+    LinkedIn: 
+    <a href="https://www.linkedin.com/in/aryan-mishra-2244b636b/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">
+      linkedin.com/in/aryan-mishra-2244b636b
+    </a>
+  </p>
+  <p>
+    GitHub: 
+    <a href="https://github.com/Aryan-maker-prog" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">
+      github.com/Aryan-maker-prog
+    </a>
+  </p>
+</section>
+
+
+  <footer class="text-center py-6 border-t mt-10">
+    © 2025 Aryan Mishra. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
